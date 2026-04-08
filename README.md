@@ -43,6 +43,7 @@ Docker Compose
 git clone <your-repo-link>
 cd <project-folder>
 2. Configure Environment Variables
+3. 
 **Create a .env file in the root directory:**
 POSTGRES_USER=airflow
 POSTGRES_PASSWORD=airflow
@@ -56,6 +57,7 @@ AIRFLOW_ADMIN_EMAIL=admin@example.com
 MINIO_ROOT_USER=minio
 MINIO_ROOT_PASSWORD=minio123
 API_KEY=your_api_key
+
 **3. Run the Application**
 docker compose up --build
 Access Services
@@ -64,17 +66,20 @@ Spark Master: http://localhost:8090
 MinIO Console: http://localhost:9011
 Dashboard: http://localhost:3000
 **Key Features**
+
 Real-time data ingestion and streaming pipeline
 Distributed processing using Spark cluster
 Workflow orchestration with Airflow
 Scalable architecture using Docker containers
 Data persistence using volumes
 Interactive dashboard for analytics
+
 **Use Cases**
 Cryptocurrency price tracking
 Real-time analytics pipelines
 Data engineering learning project
 Streaming architecture demonstrations
+
 **Future Enhancements**
 Add alerting system for price spikes
 Integrate additional data sources
